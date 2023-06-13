@@ -134,6 +134,8 @@ const controlAddRecipe = async function (newRecipe) {
   }
 };
 
+console.log('new feature');
+
 const init = function () {
   bookmarksView.addHandlerRender(controlAddBookmarks);
   recipeView.addHandlerRender(controlRecipes);
